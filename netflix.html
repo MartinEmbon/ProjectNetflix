@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/fb10d770ed.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">Simulando Netflix</h2>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#">Programas</a>
+                <a href="#">Películas</a>
+                <a href="#">Mas Recientes</a>
+                <a href="#">Mi Lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">Marte (The Martian)</h3>
+                <p class="descripcion">                
+                    El astronauta Mark Watney, un botánico e ingeniero mecánico de la NASA, se ve atrapado en el planeta Marte cuando la tripulación del Ares 3 debe evacuar su lugar de aterrizaje ante una tormenta de arena. Sin su tripulación, se ve obligado a encontrar la forma de regresar a la Tierra y sobrevivir confiando en sus habilidades científicas y técnicas, antes de que se le agoten los suministros. Mientras que sus compañeros astronautas piensan que podría estar muerto, Watney comienza a escribir un diario divagando sobre el futuro, después de su muerte. Cuando la NASA descubre a través del satélite que Mark podría estar vivo, comienzan a trabajar sobre su rescate, ocultándoselo al resto del grupo.
+                </p>
+                <button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+                <button role="button" class="boton"><i class="fas fa-info-circle"></i>Más Informacion</button>
+            </div>
+        </div>
+
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Peliculas Recomendadas</h3>
+                <div class="indicadores">
+                    <!-- <button></button>
+                    <button></button> -->
+                </div>
+            </div> <!--contenedor-titulo-controles-->
+
+            <div class="contenedor-principal">
+                <button role="button" class="flecha-izquierda" id="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+                
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-batman.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-inf-blanco.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-interestelar.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-marte.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-ready.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-tg.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-tron.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-ready.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-marte.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-interestelar.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-batman.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-inf-blanco.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-interestelar.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-marte.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                        <div class="pelicula">
+                            <a href="#"><img src="./fotos/peli-ready.jpg" alt=""></a>
+                        </div> <!--pelicula-->
+                    </div> <!--carousel-->
+                </div> <!--contenedor-carousel-->
+
+                <button role="button" class="flecha-derecha" id="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div> <!--contenedor-principal-->
+        </div>
+
+    </main>
+
+<script src="js\netflix.js"></script>
+</body>
+</html>
